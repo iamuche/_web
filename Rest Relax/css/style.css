@@ -1,0 +1,178 @@
+/* ---------- Global ---------- */
+body { 
+    font-family: Arial, sans-serif; 
+    margin:0; padding:0; 
+    background:transparent; 
+    font-size: 100%; background: #ffffff;
+    -webkit-font-smoothing: antialiased; }
+
+
+/* ---------- Headlines ---------- */
+h1, h2, h3, h4, h5, h6 {font-weight:bold; font-family: Arial, sans-serif; padding: 0; margin: 0;}
+
+p{padding: 0; margin: 0; }
+
+h1 {font-size:74px;}
+h2 {font-size:20px;}
+h3 {font-size:15px;}
+h4 {font-size:14px; font-weight:normal; }
+h5 {font-size:14px;}
+h6 {font-size:14px;}
+
+h1 {
+    font-family: Arial, sans-serif; 
+    color:rgba(255, 255, 255, 0.701961); font-weight: bold; }
+
+
+/* ---------- Containers ---------- */
+#wrapper{ height:100%; width:100%;}
+
+
+
+/* ---------- Classes ---------- */
+.width{padding: 0px 20px}
+.width ul { margin:0 auto;  width: inherit; max-width: 1026px; display: table-}
+.width li {  }
+
+
+
+/* ---------- header ---------- */
+header { 
+    background: #2E2E2E; margin:0; height: 100%; width: 100%; }
+
+#strip { 
+     width: 100%; color:#ffffff; background: #a2aab0; padding: 10px 0px; height: 100%; margin:0; text-align:center;  }
+
+#strip ul { 
+     font-size: 11px;  padding: 0; list-style: none; margin:0 auto; width: inherit }
+
+#strip ul li { 
+    display: inline-block; margin:0;}
+
+
+#strip ul li:last-child { float:right; padding-right: 0px;}
+#strip ul li:first-child { float:left; padding-left: 0px;}
+
+
+
+/* ---------- Navigation ---------- */
+nav {
+     padding:30px 0; clear:both; height: 100%; margin:0 auto; text-align: justify; width: 100%; background: #fff;}
+
+        nav ul { 
+             font-size: 16px; padding: 0; list-style: none; }
+
+        nav ul li { 
+            display: inline-block; padding: 0;  margin:0;  width: 22.5%;
+            overflow: hidden; &:after { content: ''; width: 100%; } }
+
+        nav ul li:last-child { text-align: right;}
+        nav span { display: block; text-align: right;}
+
+        nav ul li a { 
+            color:#ffffff; font-weight:bold; text-decoration: none; margin:0;  }
+
+        nav ul li a:hover, nav ul li a:focus  { 
+            color:#eb088d; text-decoration: underline; }
+
+        nav ul li:active a { 
+            color:#eb088d; }
+
+        nav ul li a img { text-align: center; margin: 0; }
+        nav p { padding: 23px 0; }
+        nav ul li p a { padding: 23px 0; color: #666666; }
+
+
+.logo { margin: 0 auto; width: 58px; overflow: visible;}
+.hiden_menu { display: none; }
+.hiden_logo { display: none; }
+.menu_logo {}
+#hiden_nav { display: none; }
+ 
+
+
+
+
+/* ---------- Main content ---------- */
+main { 
+     margin:0 auto; display: block; height: 100%; max-width: 1026px; }
+
+#container { height: 100%; padding: 0 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- Grid ---------- */
+div, ul, li{
+    margin: 0; padding: 0; list-style-type: none; }
+
+
+
+/* ---------- FLUID GRID STYLES ---------- */
+#Grid{
+  margin: 0; padding: 0; text-align: justify; font-size: 15px;}
+
+#Grid li{
+  display: inline-block; background: #eee; width: 23%; margin:0 0 1.5% 0; padding-top: 23%; /* Used instead of height to give elements fluid, width-based height */ }
+
+#Grid:after{
+  content: ''; display: inline-block; width: 100%; }
+
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after { content: " "; display: table;}
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; display: block;}
+
+
+
+
+
+/* ---------- footer ---------- */
+footer { 
+    background: #f2f2f2; margin:0; height: 100%; width: 100%; display: block; }
+
+#footer_wrap {
+    margin:0 auto; max-width: 1026px; height: 100%; padding: 4% 0px; }
+
+#footer { margin: 0; text-align: justify; padding-bottom: 5px}
+#footer li { display: inline-block; width: 24%; vertical-align: top;}
+#footer h2{ font-size:20px; line-height: 25px; color:#333333; padding-bottom:5px; }
+
+#footer table tr td { padding-right: 10px; padding-bottom: 10px;}
+
+#footer p{ font-size:14px; line-height: 22px; color:#333333;}
+#footer p a{text-decoration: none; color:#333333;}
+#footer p a:hover{text-decoration: underline;}
+#footer:after{ content: ''; display: inline-block; width: 100%;}
+
+form {height: 100%}
+form input { vertical-align: top;}
+
+input {margin: 0; padding: 0; }
+input#email { 
+    color: #333333; width: 175px; margin: 0; padding: 0; font-size:14px;  text-align: center; height: 25px; }
+
+
+input#submit { 
+    color: #ffffff; font-size:20px; line-height: 20px; width:30px; height:28px; margin: 0; padding: 0; background: #717171; border: none;}
+input#submit:hover { background: #ef3ba5 ;}
+
+#disclaimer{ height: 100%; }
+#disclaimer p{ font-size: 12px; line-height:15px; color:#666666; }
+#disclaimer h3{ padding-bottom: 15px; padding-top: 3%; border-top: dashed 1px #ccc; }
+
+.line{ border-top: solid 1px #ccc; margin: 25px 0; }
+
+#disclaimer p a{ color:#666666; text-decoration: none; }
+#disclaimer p a:hover{text-decoration: underline;}

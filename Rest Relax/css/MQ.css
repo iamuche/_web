@@ -1,0 +1,122 @@
+body { width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0;
+	-webkit-box-pack: center; }
+
+/* --------------- 900px --------------- */
+
+@media screen and (max-width: 900px) {
+
+    #wrapper {
+        max-width: !important; }
+    
+    header { 
+        background: #f66; margin:0; height: 100%; width: 100%; }
+    main{ width: 100%}
+    #Grid{ }
+    #Grid li{
+        width: 46%;  margin-left: 0; margin-bottom: 3%; display: inline-table; overflow: hidden; }
+    #footer_wrap {width: 100%}
+    
+    #footer li{
+        width: 46%;  margin-left: 0; margin-bottom: 3%; display: inline-table; overflow: hidden; }
+
+}
+
+
+/* --------------- 800px --------------- */
+
+@media screen and (max-width: 800px) {
+ 
+    #strip { 
+        display: none;}
+    
+    #mob_nav ul {
+		position: static; display: none; }
+	
+	#mob_nav li { 
+        margin-bottom: 1px; }
+	
+	#mob_nav ul li, li a { 
+        width: 100%; }
+    
+    .mob_hide { 
+        display: none;}
+    
+    #menu_logo { width: 90% !important; margin: 0 auto; display: block; }
+    
+    .hiden_menu { 
+        display: inline; float: left; font-size: 25px; color: #fff; font-weight: bold; margin: 20px 0 0 0; text-align: left; width: 20%; padding-left: 20px;}
+    
+    .hiden_menu a { text-decoration: none !important; }
+    .hiden_menu a:active { text-decoration: none !important;}
+    
+    .hiden_logo { 
+        display: inline; float: right; font-size: 25px; color: #fff; font-weight: bold;  text-align: left;  padding-right: 0px; width: 55%}
+    
+    .hiden_nav { display: block; }
+    
+    #hiden_nav {
+  		 position: relative;  }
+    
+    #hiden_nav ul li {
+  		 width: 100%; text-align: center !important; padding: 0; margin: 0; border-bottom: dashed 1px #ccc;  }
+    
+     nav p { padding: 10px 0; }
+    
+    nav ul li:active a { }
+    
+    nav a#pull {
+		display: block; color: #666666; width: 100%; position: relative; }
+	nav a#pull:after {
+		content:""; background: url('nav-icon.png') no-repeat; width: 30px; height: 30px; display: inline-block; position: absolute; right: 15px; top: 10px; }
+    
+    #footer li.mob_hide{ display: none;}
+    
+    
+    
+}
+
+
+
+
+/* --------------- 600px --------------- */
+
+
+@media screen and (max-width: 600px) {
+
+	#Grid li{
+        width: 100%; }
+    #disclaimer h3{ padding-top: 6%; }
+    
+    #footer li.social{ width: 100%;}
+
+    
+	
+	}
+
+/* --------------- 400px --------------- */
+
+
+@media screen and (max-width: 400px) {
+    #footer li{
+        width: 100%;  }
+    
+    
+
+    
+}
+
+
+/* --------------- 320px --------------- */
+
+
+@media screen and (min-width: 320px) {
+    
+    #wrapper {
+		width: 100% !important; }
+ 
+    #hiden_nav { 
+             padding: 0; width: 100%; overflow: hidden; }
+
+}
+
+
